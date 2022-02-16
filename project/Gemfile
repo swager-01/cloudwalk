@@ -1,0 +1,7 @@
+#BEFORE install bundle to integrate with Gemfile -> gem install bundle
+
+source 'https://rubygems.org'
+
+#gem 'smarter_csv'
+
+#gem install smarter_csv
