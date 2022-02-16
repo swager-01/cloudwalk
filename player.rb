@@ -7,8 +7,12 @@ class Player
       @kill_type = kill_type
     end
 
+    def to_json
+    end
+
     def to_s
-        "Player: #{@name} Killed with: #{@kill_type}"
+         #puts JSON.parse(player).to_json 
+        "KILLER: #{@name} MOD: #{@kill_type}"
     end
 
 end

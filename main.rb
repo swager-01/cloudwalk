@@ -7,6 +7,7 @@ require File.expand_path("kill")
 =begin
  TODO -> Pure Function: function as argument to dont repeat steps self.get_lines(file, match, f(n))
 	     Implement  games[] segregated by InitGame
+
 =end
 class Main
 

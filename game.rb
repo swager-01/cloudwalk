@@ -4,17 +4,25 @@ class Game
 
     def initialize
       @players = []
-      @total_kills = 0
+    end
+
+    def self.verify_total_kill(player)
+      if(player.include? "<word>")
+        @@total_kills -= @@total_kills
+      else
+        @@total_kills += @@total_kills
+      end
     end
 
     def add(player)
         @players << player
-        @@total_kills++
     end
 
-    def to_json
+    def to_s
+      players.each do |player|
+        
+      end  
     end
-
 end    
 
 
